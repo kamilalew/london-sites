@@ -1,4 +1,9 @@
 import React from "react";
+import IsabellaPlantationRichmondPark from '../images/Isabella-Plantation-Richmond-Park.jpg'
+import isabella1 from '../images/isabella_1.jpg'
+import isabella2 from '../images/isabella_2.jpg'
+import isabella3 from '../images/isabella_3.jpg'
+
 
 export default class Subpage_Isabella extends React.Component {
 
@@ -7,10 +12,10 @@ export default class Subpage_Isabella extends React.Component {
 
         this.state = {
             images: [
-                "../images/Isabella-Plantation-Richmond-Park.jpg",
-                "../images/isabella_1.jpg",
-                "../images/isabella_2.jpg",
-                "../images/isabella_3.jpg",
+                IsabellaPlantationRichmondPark,
+                isabella1,
+                isabella2,
+                isabella3,
             ],
             counter: 0
         };

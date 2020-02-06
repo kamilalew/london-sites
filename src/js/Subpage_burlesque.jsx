@@ -1,4 +1,8 @@
 import React from "react";
+import bur2 from '../images/bur2.jpg';
+import bur1 from '../images/bur1.jpg';
+import bur3 from '../images/bur3.jpg';
+import bur from '../images/bur.jpg';
 
 export default class Subpage_burlesque extends React.Component {
 
@@ -7,10 +11,10 @@ export default class Subpage_burlesque extends React.Component {
 
         this.state = {
             images: [
-                "../images/bur2.jpg",
-                "../images/bur.jpg",
-                "../images/bur3.jpg",
-                "../images/bur4.jpg",
+                bur2,
+                bur1,
+                bur3,
+                bur,
             ],
             counter: 0
         };

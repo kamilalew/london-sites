@@ -1,4 +1,9 @@
 import React from "react";
+import Wilt1 from '../images/Wiltons1.gif'
+import Wilt2 from '../images/Wiltons2.jpg'
+import Wilt3 from '../images/wilt1.jpg'
+import Wilt4 from '../images/Wiltons4.jpg'
+
 
 export default class Subpage_wiltons extends React.Component {
     constructor(props) {
@@ -6,10 +11,10 @@ export default class Subpage_wiltons extends React.Component {
 
         this.state = {
             images: [
-                "../images/Wiltons1.gif",
-                "../images/Wiltons2.jpg",
-                "../images/Wilt1.jpg",
-                "../images/Wiltons4.jpg",
+                Wilt1,
+                Wilt2,
+                Wilt3,
+                Wilt4,
             ],
             counter: 0
         };

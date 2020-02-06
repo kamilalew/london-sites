@@ -1,4 +1,7 @@
 import React from "react";
+import camdenPassage from '../images/camden-passage.jpg';
+import camdenTown6 from '../images/Camden-Town-5.jpg';
+import camdenTown5 from '../images/camden-town-6.jpg';
 
 export default class Subpage_Camden extends React.Component {
 
@@ -8,9 +11,9 @@ export default class Subpage_Camden extends React.Component {
 
         this.state = {
             images: [
-                "../images/camden-passage.jpg",
-                "../images/camden-Town-5.jpg",
-                "../images/camden-town-6.jpg",
+                camdenPassage,
+                camdenTown5,
+                camdenTown6,
             ],
             counter: 0
         };
@@ -51,9 +54,7 @@ export default class Subpage_Camden extends React.Component {
                     <div className="arrow_position">
                     <div className="nextArrow" onClick={this.incCounter}><i className="fa fa-arrow-right fa-2x" aria-hidden="true"></i>
                     </div>
-                    {/*<div className="subpage_photo_new">*/}
                         <div className="subpage_photo_ind_new" style={{backgroundImage: `url(${this.state.images[this.state.counter]})`}}></div>
-                    {/*// <gg/div>*/}
                         <div className="backArrow" onClick={this.incCounterback}><i className="fa fa-arrow-left fa-2x" aria-hidden="true"></i>
                         </div>
                     </div>

@@ -1,4 +1,8 @@
 import React from "react";
+import leightonHouse from '../images/leighton-house.jpg'
+import leighton1 from '../images/leighton_1.jpg'
+import leighton2 from '../images/leighton_2.jpg'
+import leighton3 from '../images/leighton_3.jpg'
 
 export default class Subpage_leighton extends React.Component {
 
@@ -7,10 +11,10 @@ export default class Subpage_leighton extends React.Component {
 
         this.state = {
             images: [
-                "../images/leighton-house.jpg",
-                "../images/leighton_1.jpg",
-                "../images/leighton_2.jpg",
-                "../images/leighton_3.jpg",
+                leightonHouse,
+                leighton1,
+                leighton2,
+                leighton3,
             ],
             counter: 0
         };

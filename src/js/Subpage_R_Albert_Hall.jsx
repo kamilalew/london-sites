@@ -1,4 +1,8 @@
 import React from "react";
+import RA2 from '../images/R_A2.jpg'
+import RA3 from '../images/R_A_3.jpg'
+import RA4 from '../images/R_A_4.jpg'
+import RA1 from '../images/R_A1.jpg'
 
 export default class Subpage_R_Albert_Hall extends React.Component {
 
@@ -7,10 +11,10 @@ export default class Subpage_R_Albert_Hall extends React.Component {
 
         this.state = {
             images: [
-                "../images/R_A2.jpg",
-                "../images/R_A_3.jpg",
-                "../images/R_A_4.jpg",
-                "../images/R_A1.jpg",
+                RA2,
+                RA3,
+                RA4,
+                RA1,
             ],
             counter: 0
         };

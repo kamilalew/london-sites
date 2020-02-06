@@ -1,4 +1,8 @@
 import React from "react";
+import LittleVenice from '../images/Little_Venice.jpg'
+import LittleVenice2 from '../images/Little-Venice2.jpg'
+import LittleVenice1 from '../images/little_venice1.jpg'
+import LittleVenice3 from '../images/Little_venice3.jpg'
 
 export default class Subpage_littlevenice extends React.Component {
 
@@ -7,10 +11,10 @@ export default class Subpage_littlevenice extends React.Component {
 
         this.state = {
             images: [
-                "../images/Little_Venice.jpg",
-                "../images/Little-Venice2.jpg",
-                "../images/little_venice1.jpg",
-                "../images/Little_venice3.jpg",
+                LittleVenice,
+                LittleVenice2,
+                LittleVenice1,
+                LittleVenice3,
             ],
             counter: 0
         };

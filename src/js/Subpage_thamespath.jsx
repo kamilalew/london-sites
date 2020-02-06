@@ -1,4 +1,8 @@
 import React from "react";
+import RA1 from '../images/thames1.jpg'
+import RA2 from '../images/thames2.jpg'
+import RA3 from '../images/thames3.jpg'
+import RA4 from '../images/thames4.jpg'
 
 export default class Subpage_thamespath extends React.Component {
 
@@ -7,10 +11,10 @@ export default class Subpage_thamespath extends React.Component {
 
         this.state = {
             images: [
-                "../images/thames1.jpg",
-                "../images/thames2.jpg",
-                "../images/thames3.jpg",
-                "../images/thames4.jpg",
+                RA1,
+                RA2,
+                RA3,
+                RA4,
             ],
             counter: 0
         };
